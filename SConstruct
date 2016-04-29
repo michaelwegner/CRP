@@ -86,7 +86,6 @@ env["CXX"] = compiler
 #										Libraries
 ########################################################################################
 
-env.Append(LIBS = ["boost_iostreams-mt"])
 env.Append(LIBS = ["boost_iostreams"])
 env.Append(LIBS = ["gomp"])
 
