@@ -26,3 +26,13 @@
 *.exe
 *.out
 *.app
+
+# deploy folder
+deploy/*
+
+# OS X .ds_store
+*.DS_Store
+
+# scons
+.sconsign.dblite
+
