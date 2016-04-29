@@ -48,6 +48,7 @@ Note that specifying the same folder as output directory (like in this example) 
 In a final step we run the customization phase to build the metric information for the overlay graph:
 
 ```
+mkdir examples/karlsruhe/metrics
 ./deploy/customization examples/karlsruhe/karlsruhe.graph.bz2 examples/karlsruhe/karlsruhe.overlay examples/karlsruhe/metrics/ all
 ```
 
